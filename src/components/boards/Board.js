@@ -48,8 +48,6 @@ export default function Board() {
 
     draggingItem.current = dragOverItem.current;
     dragOverItem.current = null;
-
-    console.log('mod', listCopy);
     setLists(listCopy);
   };
 
